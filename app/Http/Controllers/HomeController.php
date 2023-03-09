@@ -36,7 +36,4 @@ class HomeController extends Controller
         return view('home', compact('users', 'lastSuggestionId', 'suggestionsCount', 'sentRequestsCount', 'receivedRequestsCount', 'connectionsCount'));
     }
 
-    public function index1(){
-        return view('homeOld');
-    }
 }
